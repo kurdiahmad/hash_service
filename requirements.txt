@@ -1,2 +1,9 @@
 flask
 gunicorn
+opentelemetry-sdk
+opentelemetry-instrumentation-flask
+opentelemetry-exporter-otlp
+opentelemetry-api
+
+
+opentelemetry-exporter-jaeger
