@@ -40,7 +40,7 @@ def hash_string():
         input_data = request.get_data(as_text=True).strip()
         if not input_data:
             span.set_attribute("error", True)
-            return "No input provided", 400
+            return jsonify({"error": "No input provided"}), 400
 
         sha256_hash = hashlib.sha256(input_data.encode()).hexdigest()
 
