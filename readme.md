@@ -10,7 +10,7 @@ The **Hash Service** is a simple Flask-based microservice that computes the SHA-
 - Uses Gunicorn for production deployment.
 - Dockerized with multi-stage builds for optimized images.
 - CI/CD pipeline for automated builds and Docker image push.
-
+- We use a Helm chart to deploy the application, which simplifies Kubernetes deployment and management.
 ---
 
 ## Table of Contents
